@@ -24,8 +24,8 @@
     line-height: 30px;
 }
 .slider__link {
+    text-decoration: none;
     width: 174px;
-    padding: 4px 40px;
     border-radius: 4px;
     background: var(--accent-color-3);
 }

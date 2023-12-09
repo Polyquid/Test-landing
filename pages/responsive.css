@@ -4,12 +4,16 @@
 @import url(../common.blocks/header.css);
 @import url(../common.blocks/slider.css);
 @import url(../common.blocks/statistics.css);
+@import url(../common.blocks/what-we-do.css);
+@import url(../common.blocks/table.css);
 :root {
     --bg-main-color: #FFF;
     --text-main-color: #fff;
     --accent-color:#7050E5;
     --accent-color-2:rgba(66, 46, 139, 0.898);
     --accent-color-3:#FF8B00;
+    --bg-color-2: #F8F8F8;
+    --text-color-2: #878787;
 }
 *{
     transition: all 0.5s;

@@ -23,22 +23,7 @@
     font-weight: 600;
     line-height: 30px;
 }
-.slider__link {
-    text-decoration: none;
-    width: 174px;
-    border-radius: 4px;
-    background: var(--accent-color-3);
-}
-.slider__link-text {
-    margin: 0 auto;
-    text-align: center;
-    color: var(--text-main-color);
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 45px;
-    text-transform: uppercase;
-    text-decoration: none;
-}
+
 .slider__image {
     width: 151px;
     height: 124px;

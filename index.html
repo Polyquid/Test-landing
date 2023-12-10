@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salt Group</title>
-    <link rel="stylesheet" href="pages/responsive.css">
+    <link rel="stylesheet" href="index.css">
     <meta name="description" content="landing page for SALT group">
     <meta name="keywords" content="SALT group">
     <meta name="author" content="Rakhimzhan Rakhmayev">
@@ -36,9 +36,7 @@
                             <p class="slider__description">SALT Group is a world leader in authentication and security. We have<br>
                             a range of services to improve user authentication.<br>
                             Discover the possibilities with SALT.</p>
-                            <a href="#" class="slider__link">
-                                <p class="slider__link-text">Get started</p>
-                            </a>
+                            <a href="#" class="button button__slider">Get started</a>
                         </div>
                         <img src="images/twitter.svg" alt="logotype Twitter" class="slider__image">
                     </div>
@@ -75,7 +73,7 @@
                     <input type="radio" class="slider__dot" name="slider">
                     <label for="slider" class="slider__marker"></label>
                 </div>
-                <a href='#' class="header-bottom__link">Find out more<img href="#" src="images/union.svg" alt="Decorative for button" class="header-bottom__link-image"></a>
+                <a href='#WWD' class="header-bottom__link">Find out more<img href="#" src="images/union.svg" alt="Decorative for button" class="header-bottom__link-image"></a>
                 
         </header>
 
@@ -90,7 +88,7 @@
                 <p class="statictics__description">Online Fraud Cases Reported in Australia</p>
             </section>
             
-            <div class="what-we-do__bg">
+            <div class="what-we-do__bg" id="WWD">
                 <section class="what-we-do">
                     <h2 class="what-we-do__title">What We Do</h2>
                     <div class="table">
@@ -127,6 +125,29 @@
                     </div>
                 </section>
             </div>
+
+            <section class="product-spotlight">
+                <h2 class="product-spotlight__title">Product Spotlight</h2>
+                <p class="product-spotlight__description">Salt mSign Connected Token is a contemporary mobile security 2FA token for authentication of user identity and verification of transactions independent of the delivery channel that initiated the request.</p>
+                <button
+                class="button button__product-spotlight openDialogBtn"
+                type="button"
+                aria-haspopup="dialog"
+                aria-controls="popUp">More info</button>
+                <div onclick="window.popUp.showModal()" class="pop-up">
+                    <img src="images/play-icon.svg" alt="Triangle" class="pop-up__play-icon">
+                    <p class="pop-up__text">Feature Video</p>
+                    <h3 class="pop-up__title">mSign Connected token</h3>
+                </div>
+                <dialog id="popUp">
+                    <div class="pop-up__wrapper">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/4xDzrJKXOOY?si=NUGVK4JralHRAPQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <button type="button" class="button button__dialog closeDialogBtn">Close video</button>
+                    </div>
+                </dialog>
+                </div>
+                <script src="common.blocks/pop-up.js"></script>
+            </section>
         </main>
     </div>    
 </body>

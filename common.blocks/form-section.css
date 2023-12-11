@@ -1,0 +1,101 @@
+.form-section__bg {
+    background-color: var(--bg-alternate);
+    max-width: 100%;
+    padding: 120px 0;
+    position: relative;
+    overflow: hidden;
+}
+.form-section {
+    max-width: 79%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    transform: translatex(63px);
+    font-family: 'Proxima Nova';
+}
+
+.form-section::before {
+    z-index: -1;
+    content: "";
+    width: 746.861px;
+    height: 757.168px;
+    border-radius: 373.431px;
+    opacity: 0.33;
+    background-image: linear-gradient(12deg, #F101BF 2.82%, #06F 97.06%);
+    transform: rotate(-122.792deg);
+    filter: blur(125px);
+    position: absolute;
+    top:-439px;
+    left:-296px;
+}
+
+.form-section::after {
+    z-index: -1;
+    content: "";
+    width: 472.095px;
+    height: 478.61px;
+    transform: rotate(5.779deg);
+    border-radius: 236.048px;
+    opacity: 0.3;
+    background: linear-gradient(12deg, #F101BF 2.82%, #06F 97.06%);
+    filter: blur(125px);
+    position: absolute;
+    top:389px;
+    right:193.11px;
+}
+.form-section__title {
+    margin: 0;
+    width: 361px;
+    color: var(--text-main-color);
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 55px; /* 100% */
+}
+
+@media screen and (width <= 1350px) {
+    .form-section{
+        max-width: 90%;
+    }
+}
+
+@media screen and (width <= 1200px) {
+    .form-section::after {
+        display: none;
+    }
+
+    .form-section {
+        max-width: 675px;
+        flex-direction: column;
+        transform: translate(0);
+    }
+
+    .form-section::before {
+        transform: rotate(-150deg);
+        /* top: -444px; */
+    }
+    .form-section__title {
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (width < 768px) {
+    .form-section {
+    max-width: 361px;
+    }
+}
+
+@media screen and (width <= 375px) {
+    .form-section__bg {
+        padding: 40px 0;
+    }
+    .form-section {
+        max-width: 83%;
+        flex-direction: column;
+        transform: translatex(-8px);
+    }
+    .form-section__title{
+        font-size: 34px;
+        line-height: 40px; /* 117.647% */  
+    }
+}
+

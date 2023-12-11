@@ -9,6 +9,8 @@
 @import url(common.blocks/table.css);
 @import url(common.blocks/product-spotlight.css);
 @import url(common.blocks/pop-up.css);
+@import url(common.blocks/form-section.css);
+@import url(common.blocks/form.css);
 :root {
     --bg-main-color: #FFF;
     --text-main-color: #fff;
@@ -17,6 +19,7 @@
     --accent-color-3:#FF8B00;
     --bg-color-2: #F8F8F8;
     --text-color-2: #878787;
+    --bg-alternate: #232323;
 }
 *{
     transition: all 0.5s;

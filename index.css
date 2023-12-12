@@ -2,6 +2,7 @@
 @import url(fonts/Proxima-Nova/Proxima-Nova.css);
 @import url(common.blocks/page.css);
 @import url(common.blocks/header.css);
+@import url(common.blocks/navigation.css);
 @import url(common.blocks/button.css);
 @import url(common.blocks/slider.css);
 @import url(common.blocks/statistics.css);
@@ -11,6 +12,8 @@
 @import url(common.blocks/pop-up.css);
 @import url(common.blocks/form-section.css);
 @import url(common.blocks/form.css);
+@import url(common.blocks/footer.css);
+@import url(common.blocks/section-links.css);
 :root {
     --bg-main-color: #FFF;
     --text-main-color: #fff;
@@ -20,6 +23,8 @@
     --bg-color-2: #F8F8F8;
     --text-color-2: #878787;
     --bg-alternate: #232323;
+    --bg-alternate-2: #252525;
+    --bg-alternate-3: #363636;
 }
 *{
     transition: all 0.5s;

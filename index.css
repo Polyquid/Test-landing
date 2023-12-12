@@ -1,5 +1,6 @@
 @import url(vendor/normalize.css);
 @import url(fonts/Proxima-Nova/Proxima-Nova.css);
+@import url(fonts/Raleway/Raleway.css);
 @import url(common.blocks/page.css);
 @import url(common.blocks/header.css);
 @import url(common.blocks/navigation.css);

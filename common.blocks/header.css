@@ -68,8 +68,17 @@
     width: 62px;
     height: 71px;
 }
+
+@media screen and (width <= 1250px) {
+    .header__bottom {
+        max-width: 72%;
+    }
+}
 @media screen and (width < 992px) {
     .header__top {
+        max-width: 90%;
+    }
+    .header__bottom {
         max-width: 90%;
     }
 }
@@ -91,8 +100,19 @@
     #burger:checked + .header__burger > .header__burger-icon {
         transform: rotate(90deg);
     }
+    .header__bottom{
+        margin-top: 133px;
+    }
+    .header__top {
+        padding: 0;
+    }
+    .header-bottom__link {
+        margin-top: 68px;
+    }
 }
 
 @media screen and (width <= 375px) {
-    
+    .header__bottom {
+        width: 85%;
+    }
 }

@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salt Group</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <meta name="description" content="landing page for SALT group">
     <meta name="keywords" content="SALT group">
     <meta name="author" content="Rakhimzhan Rakhmayev">
@@ -30,40 +29,48 @@
             </div>
             
             <div class="header__bottom">
-                <div class="sliders swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="slider-1 swiper-slide">
-                            <div class="slider__text">
-                                <h1 class="slider__title">Device Authentication</h1>
-                                <p class="slider__description">SALT Group is a world leader in authentication and security. We have<br>
-                                a range of services to improve user authentication.<br>
-                                Discover the possibilities with SALT.</p>
-                                <a href="#" class="button button__slider">Get started</a>
-                            </div>
-                            <img src="images/twitter.svg" alt="logotype Twitter" class="slider__image">
+                <div class="sliders">
+                    <div class="slider-1">
+                        <div class="slider__text">
+                            <h1 class="slider__title">Device Authentication</h1>
+                            <p class="slider__description">SALT Group is a world leader in authentication and security. We have<br>
+                            a range of services to improve user authentication.<br>
+                            Discover the possibilities with SALT.</p>
+                            <a href="#" class="button button__slider">Get started</a>
                         </div>
-                        <div class="slider-2 swiper-slide">
-                            <div class="slider__text">
-                                <h1 class="slider__title">Device Authentication</h1>
-                                <p class="slider__description">SALT Group is a world leader in authentication and security. We have<br>
-                                a range of services to improve user authentication.<br>
-                                Discover the possibilities with SALT.</p>
-                                <a href="#" class="button button__slider">Get started</a>
-                            </div>
-                            <img src="images/twitter.svg" alt="logotype Twitter" class="slider__image">
-                        </div>
-                        <div class="slider-3 swiper-slide">
-                            <div class="slider__text">
-                                <h1 class="slider__title">Device Authentication</h1>
-                                <p class="slider__description">SALT Group is a world leader in authentication and security. We have<br>
-                                a range of services to improve user authentication.<br>
-                                Discover the possibilities with SALT.</p>
-                                <a href="#" class="button button__slider">Get started</a>
-                            </div>
-                            <img src="images/twitter.svg" al t="logotype Twitter" class="slider__image">
-                        </div>
+                        <img src="images/twitter.svg" alt="logotype Twitter" class="slider__image">
                     </div>
-                    <div class="slider__dots swiper-pagination"></div>
+                        <div class="slider__text">
+                            <h1 class="slider__title">Device Authentication</h1>
+                            <p class="slider__description">SALT Group is a world leader in authentication and security. We have<br>
+                            a range of services to improve user authentication.<br>
+                            Discover the possibilities with SALT.</p>
+                            <a href="#" class="slider__link">
+                                <p class="slider__link-text">Get started</p>
+                            </a>
+                        </div>
+                        <img src="images/twitter.svg" alt="logotype Twitter" class="slider__image">
+                    </div>
+                    <div class="slider-3">
+                        <div class="slider__text">
+                            <h1 class="slider__title">Device Authentication</h1>
+                            <p class="slider__description">SALT Group is a world leader in authentication and security. We have<br>
+                            a range of services to improve user authentication.<br>
+                            Discover the possibilities with SALT.</p>
+                            <a href="#" class="slider__link">
+                                <p class="slider__link-text">Get started</p>
+                            </a>
+                        </div>
+                        <img src="images/twitter.svg" al t="logotype Twitter" class="slider__image">
+                    </div>
+                </div>
+                <div class="slider__dots">
+                    <input type="radio" class="slider__dot" name="slider" checked>
+                    <label for="slider" class="slider__marker"></label>
+                    <input type="radio" class="slider__dot" name="slider">
+                    <label for="slider" class="slider__marker"></label>
+                    <input type="radio" class="slider__dot" name="slider">
+                    <label for="slider" class="slider__marker"></label>
                 </div>
                 <a href='#WWD' class="header-bottom__link">Find out more<img href="#" src="images/union.svg" alt="Decorative for button" class="header-bottom__link-image"></a>
             </div>    
@@ -137,6 +144,8 @@
                         <button type="button" class="button button__dialog closeDialogBtn">Close video</button>
                     </div>
                 </dialog>
+                </div>
+                <script src="common.blocks/pop-up.js"></script>
             </section>
 
             <div class="form-section__bg">
@@ -158,7 +167,7 @@
                         </label>
                         <label class="form__label form__label_width-full">
                             <p class="form__heading">Your message</p>
-                            <textarea class="form__textarea" name="textarea" id="textArea" placeholder="Textarea"></textarea>
+                            <textarea class="form__textarea" name="firstName" id="textArea" placeholder="Textarea"></textarea>
                         </label class="form__label form__label_width-full">
                         <label class="form__submit">
                             <input class="button button__form" type="submit" id="submit" name="Submit" value="Send">
@@ -197,15 +206,10 @@
                     <img src="images/logo-footer.svg" alt="logo footer saltgroup" class="footer__logo">
                 </section>
             </div>
-
             <section class="footer__copyright-section">
                 <p class="footer__copyright-text">© 2017 SALT GROUP <span class="footer__copyright-text footer__copyright-text_marker">ALL RIGHTS RESERVED. WEBSITE BY DORNE CREATIVE.</span></p>
             </section>
-
         </main>
-    </div> 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="common.blocks/slider.js"></script>
-    <script src="common.blocks/pop-up.js"></script>   
+    </div>    
 </body>
 </html> 

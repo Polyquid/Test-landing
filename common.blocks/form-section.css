@@ -40,7 +40,7 @@
     background: linear-gradient(12deg, #F101BF 2.82%, #06F 97.06%);
     filter: blur(125px);
     position: absolute;
-    top:389px;
+    bottom: -205.71px;
     right:193.11px;
 }
 .form-section__title {

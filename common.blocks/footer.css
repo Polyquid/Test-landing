@@ -44,6 +44,7 @@
     right: 32px;
 }
 
+
 @media screen and (width <= 1275px) {
     .footer {
         max-width: 90%;
@@ -60,6 +61,8 @@
         max-width: 299px;
     }
     .footer__logo {
+        height: 100px;
+        width: 88px;
         position: static;
         margin: 80px auto;
     }

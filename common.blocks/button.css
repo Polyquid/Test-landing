@@ -10,7 +10,7 @@
     font-size: 14px;
     font-weight: 700;
     border: none;
-    transition: all 0.5s;
+    transition: all 0.2s;
 }
 
 .button__slider {
@@ -38,4 +38,8 @@
 .button:hover{
     background: var(--bg-main-color);
     color: var(--accent-color-3);
+}
+
+.button:active{
+    border-radius: 40px;
 }

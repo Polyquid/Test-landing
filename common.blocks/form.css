@@ -46,7 +46,7 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 7px; /* 50% */
-    height: 40px;
+    height: 36px;
     padding: 0 13px;
 }
 
@@ -57,9 +57,9 @@
     font-family: Raleway;
     font-size: 14px;
     font-weight: 500;
-    line-height: 14px; /* 50% */
-    height: 96px;
-    padding: 12px 12px;
+    line-height: 15px; /* 50% */
+    height: 64px;
+    padding: 15px 13px;
 }
 
 @media screen and (width < 768px) {

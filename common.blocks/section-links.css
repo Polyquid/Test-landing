@@ -39,12 +39,14 @@
     color: var(--text-main-color);
     font-family: Proxima Nova;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 20px; /* 142.857% */
     text-transform: uppercase;
     text-decoration: none;
 }
-
+.section-links__link:hover {
+    color: var(--accent-color-3);
+}
 .section-links__link_non-uppercase {
     text-transform: none;
 }

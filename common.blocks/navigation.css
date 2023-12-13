@@ -16,6 +16,19 @@
     line-height: 18px;
 }
 
+.navigation__header-link::after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: var(--accent-color-3);
+    transform: scale(0);
+    display: block;
+    transition: transform 0.5s;
+}
+.navigation__header-link:hover::after {
+    transform: scale(1);
+}
+
 @media screen and (width < 768px) {
     .navigation__header{
         display: none;

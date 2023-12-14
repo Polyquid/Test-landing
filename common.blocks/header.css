@@ -6,9 +6,6 @@
     background-position: top;
     position: relative;
 }
-::selection {
-    background: cyan;
-  }
 .header__top {
     max-width: 72%;
     display: flex;
@@ -101,13 +98,14 @@
         position: fixed;
         top: 37px;
         right: 28px;
-        z-index: 2;
+        z-index: 3;
     }
     #burger:checked + .header__burger > .header__burger-icon {
         transform: rotate(90deg);
     }
     .header__bottom{
-        margin-top: 133px;
+        margin-top: 0;
+        padding-top: 133px;
     }
     .header__top {
         padding: 0;

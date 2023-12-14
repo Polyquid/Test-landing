@@ -1,0 +1,1 @@
+import Swiper from"swiper";import{Keyboard,Pagination}from"swiper/modules";import"swiper/css";import"swiper/css/pagination";var swiper=new Swiper(".sliders",{modules:[Keyboard,Pagination],pagination:{el:".swiper-pagination",clickable:!0},spaceBetween:10,keyboard:{enabled:!0,onlyInViewport:!0,pageUpDown:!0},loop:!0});
